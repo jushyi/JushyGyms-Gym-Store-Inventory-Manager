@@ -157,7 +157,7 @@ class PartTest {
         assertEquals(partIn.hashCode(),partOut.hashCode());
     }
 
-    /*@Test
+    @Test
     void getMinimum() {
         int minimum=10;
         partIn.setMinimum(minimum);
@@ -173,5 +173,5 @@ class PartTest {
         assertEquals(maximum, partIn.getMaximum());
         partOut.setMaximum(maximum);
         assertEquals(maximum, partOut.getMaximum());
-    }*/
+    }
 }
